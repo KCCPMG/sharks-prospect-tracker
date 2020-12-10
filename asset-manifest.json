@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/nhl-prospect-tracker/static/css/main.54cb433f.chunk.css",
+    "main.js": "/nhl-prospect-tracker/static/js/main.307d4bb3.chunk.js",
+    "main.js.map": "/nhl-prospect-tracker/static/js/main.307d4bb3.chunk.js.map",
+    "runtime-main.js": "/nhl-prospect-tracker/static/js/runtime-main.d541a06f.js",
+    "runtime-main.js.map": "/nhl-prospect-tracker/static/js/runtime-main.d541a06f.js.map",
+    "static/js/2.ace3d56f.chunk.js": "/nhl-prospect-tracker/static/js/2.ace3d56f.chunk.js",
+    "static/js/2.ace3d56f.chunk.js.map": "/nhl-prospect-tracker/static/js/2.ace3d56f.chunk.js.map",
+    "static/js/3.1ed0889f.chunk.js": "/nhl-prospect-tracker/static/js/3.1ed0889f.chunk.js",
+    "static/js/3.1ed0889f.chunk.js.map": "/nhl-prospect-tracker/static/js/3.1ed0889f.chunk.js.map",
+    "index.html": "/nhl-prospect-tracker/index.html",
+    "static/css/main.54cb433f.chunk.css.map": "/nhl-prospect-tracker/static/css/main.54cb433f.chunk.css.map",
+    "static/js/2.ace3d56f.chunk.js.LICENSE.txt": "/nhl-prospect-tracker/static/js/2.ace3d56f.chunk.js.LICENSE.txt",
+    "static/media/sharks-logo.1ab49bcb.jpeg": "/nhl-prospect-tracker/static/media/sharks-logo.1ab49bcb.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d541a06f.js",
+    "static/js/2.ace3d56f.chunk.js",
+    "static/css/main.54cb433f.chunk.css",
+    "static/js/main.307d4bb3.chunk.js"
+  ]
+}
