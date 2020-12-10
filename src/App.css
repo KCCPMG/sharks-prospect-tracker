@@ -1,16 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Anton');
+
+:root {
+  --sharks-color: rgb(0, 82, 94);
+  --sharks-color-lite: rgb(127.5, 168.5, 174.5);
+}
+
+body {
+  background-color: var(--sharks-color);
+}
+
 .App {
+  text-align: center;
+  background-color: var(--sharks-color);
+  min-height: 100vh;
+  width: 100%;
+}
+
+h1 {
+  font-family: 'Anton';
+}
+
+h2 {
+  font-family: 'Anton';
+}
+
+.header-container {
+  text-align: center;
+  padding: 10px;
+}
+
+h1 {
+  margin: auto;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.img-container {
+  padding: 30px 0 30px 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.App-logo {
+  margin: auto;
+  height: 25vmin;
+  opacity: 100%;
+  pointer-events: none;
+  border: 5px solid black;
+  border-radius: 15px;
 }
 
 .App-header {
@@ -35,4 +69,77 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.table-container {
+  padding-left: 0px;
+  padding-right: 0px;
+  height: 80vh;
+  overflow: scroll; 
+}
+
+.stat-table {
+  background-color: white;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+.sticky-head-row {
+  border-bottom: 2px solid lightgray;
+}
+
+.sticky-head {
+  background-color: white;
+  position: sticky;
+  top: 0px;
+  z-index: 1020;
+  box-shadow: inset -2px 0px 0 lightgray;
+}
+
+.sticky-head:last-child {
+  box-shadow: none;
+}
+
+.sticky-subhead-row {
+  border-bottom: 2px solid lightgray;
+}
+
+.sticky-subhead {
+  background-color: white;
+  position: sticky;
+  top: 48px;
+  z-index: 1020;
+  box-shadow: inset 0 2px 0 lightgray,
+              inset 0 -2px 0 lightgray;
+}
+
+.sticky-subhead:hover {
+  cursor: pointer;
+  font-weight: bolder;
+}
+
+.sticky-subhead-right-border {
+  box-shadow: inset 0 2px 0 lightgray,
+              inset 0 -2px 0 lightgray,
+              inset -2px 0px 0 lightgray;
+}
+
+.highlight {
+  background-color: var(--sharks-color-lite);
+}
+
+thead > tr {
+  border-bottom: 3px solid lightgray;
+  position: sticky;
+}
+
+.th-content {
+  height: 100%;
+  border-bottom: 2px solid lightgray;
+}
+
+.player-link {
+  color: var(--sharks-color);
+  text-decoration: underline;
+  text-decoration-color: teal;
 }
